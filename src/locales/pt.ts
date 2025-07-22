@@ -1,0 +1,145 @@
+export default {
+  translation: {
+    // Navigation
+    'nav.home': 'Início',
+    'nav.search': 'Buscar',
+    'nav.listings': 'Meus Anúncios',
+    'nav.bookings': 'Reservas',
+    'nav.messages': 'Mensagens',
+    'nav.profile': 'Perfil',
+    'nav.login': 'Entrar',
+    'nav.register': 'Cadastrar',
+    'nav.logout': 'Sair',
+    
+    // Header/Footer
+    'app.title': 'VELOZES',
+    'app.slogan': 'Alugue veículos e embarcações, crie conexões',
+    'footer.rights': 'Todos os direitos reservados',
+    'footer.privacy': 'Política de Privacidade',
+    'footer.terms': 'Termos de Serviço',
+    'footer.support': 'Suporte',
+    
+    // Home Page
+    'home.title': 'Encontre seu veículo ou embarcação perfeita na Flórida',
+    'home.subtitle': 'Alugue carros, barcos e jet skis diretamente de locais',
+    'home.searchPlaceholder': 'Digite cidade ou CEP',
+    'home.searchButton': 'Buscar',
+    'home.featured': 'Veículos em Destaque',
+    'home.howItWorks': 'Como Funciona',
+    'home.step1': 'Encontre um veículo',
+    'home.step1Desc': 'Navegue por carros, barcos e jet skis',
+    'home.step2': 'Reserve seu passeio',
+    'home.step2Desc': 'Escolha suas datas e reserve instantaneamente',
+    'home.step3': 'Aproveite sua viagem',
+    'home.step3Desc': 'Desbloqueie e vá com retirada sem contato',
+    'home.becomeHost': 'Ganhe dinheiro compartilhando seus veículos',
+    'home.becomeHostDesc': 'Transforme seu carro, barco ou jet ski em renda quando não estiver usando',
+    'home.listCar': 'Anuncie Seu Veículo',
+    
+    // Search
+    'search.title': 'Encontre veículos perto de você',
+    'search.filter': 'Filtrar',
+    'search.sort': 'Ordenar Por',
+    'search.price': 'Preço',
+    'search.date': 'Data',
+    'search.carType': 'Tipo de Veículo',
+    'search.distance': 'Distância',
+    'search.features': 'Características',
+    'search.noResults': 'Nenhum veículo encontrado',
+    'search.results': 'Resultados',
+    'search.apply': 'Aplicar Filtros',
+    'search.reset': 'Redefinir',
+    
+    // Vehicle types
+    'vehicle.car': 'Carro',
+    'vehicle.suv': 'SUV',
+    'vehicle.truck': 'Caminhonete',
+    'vehicle.van': 'Van',
+    'vehicle.luxury': 'Luxo',
+    'vehicle.convertible': 'Conversível',
+    'vehicle.exotic': 'Exótico',
+    'vehicle.boat': 'Barco',
+    'vehicle.jet ski': 'Jet Ski',
+    
+    // Listing
+    'listing.day': 'dia',
+    'listing.book': 'Reservar Agora',
+    'listing.contact': 'Contatar Proprietário',
+    'listing.details': 'Detalhes',
+    'listing.features': 'Características',
+    'listing.location': 'Localização',
+    'listing.reviews': 'Avaliações',
+    'listing.availability': 'Disponibilidade',
+    'listing.similar': 'Veículos Similares',
+    
+    // Profile
+    'profile.title': 'Meu Perfil',
+    'profile.edit': 'Editar Perfil',
+    'profile.verify': 'Verificar Identidade',
+    'profile.listings': 'Meus Anúncios',
+    'profile.bookings': 'Minhas Reservas',
+    'profile.inbox': 'Mensagens',
+    'profile.settings': 'Configurações',
+    'profile.addListing': 'Adicionar Novo Anúncio',
+    'profile.logout': 'Sair',
+    
+    // Authentication
+    'auth.emailPlaceholder': 'Email',
+    'auth.passwordPlaceholder': 'Senha',
+    'auth.confirmPassword': 'Confirmar Senha',
+    'auth.namePlaceholder': 'Nome Completo',
+    'auth.phonePlaceholder': 'Número de Telefone',
+    'auth.login': 'Entrar',
+    'auth.register': 'Cadastrar',
+    'auth.forgotPassword': 'Esqueceu a senha?',
+    'auth.noAccount': 'Não tem uma conta?',
+    'auth.hasAccount': 'Já tem uma conta?',
+    'auth.verificationNeeded': 'Verificação de identidade necessária',
+    'login.title': 'Acesse sua conta',
+    'login.button': 'Entrar',
+    'register.title': 'Criar nova conta',
+    'register.button': 'Cadastrar',
+    
+    // Bookings
+    'booking.upcoming': 'Reservas Próximas',
+    'booking.past': 'Reservas Anteriores',
+    'booking.cancel': 'Cancelar Reserva',
+    'booking.modify': 'Modificar Reserva',
+    'booking.leaveReview': 'Deixar uma Avaliação',
+    'booking.pickupInfo': 'Informações de Retirada',
+    'booking.total': 'Total',
+    
+    // Messages
+    'messages.inbox': 'Caixa de Entrada',
+    'messages.sent': 'Enviados',
+    'messages.compose': 'Nova Mensagem',
+    'messages.reply': 'Responder',
+    'messages.noMessages': 'Sem mensagens ainda',
+    
+    // Common actions
+    'action.save': 'Salvar',
+    'action.cancel': 'Cancelar',
+    'action.delete': 'Excluir',
+    'action.edit': 'Editar',
+    'action.confirm': 'Confirmar',
+    'action.back': 'Voltar',
+    'action.next': 'Próximo',
+    'action.search': 'Buscar',
+    
+    // Common errors
+    'error.required': 'Este campo é obrigatório',
+    'error.email': 'Por favor insira um email válido',
+    'error.password': 'A senha deve ter pelo menos 8 caracteres',
+    'error.passwordMatch': 'As senhas não coincidem',
+    'error.generic': 'Algo deu errado',
+    'error.unauthorized': 'Você precisa estar logado',
+    
+    // Footer sections
+    'footer.company': 'Empresa',
+    'footer.about': 'Sobre',
+    'footer.contact': 'Contato',
+    'footer.careers': 'Carreiras',
+    'footer.help': 'Ajuda',
+    'footer.followUs': 'Siga-nos'
+  }
+};

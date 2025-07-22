@@ -1,0 +1,145 @@
+export default {
+  translation: {
+    // Navigation
+    'nav.home': 'Home',
+    'nav.search': 'Search',
+    'nav.listings': 'My Listings',
+    'nav.bookings': 'Bookings',
+    'nav.messages': 'Messages',
+    'nav.profile': 'Profile',
+    'nav.login': 'Login',
+    'nav.register': 'Sign Up',
+    'nav.logout': 'Logout',
+    
+    // Header/Footer
+    'app.title': 'VELOZES',
+    'app.slogan': 'Rent vehicles and watercraft, make connections',
+    'footer.rights': 'All rights reserved',
+    'footer.privacy': 'Privacy Policy',
+    'footer.terms': 'Terms of Service',
+    'footer.support': 'Support',
+    
+    // Home Page
+    'home.title': 'Find your perfect ride or watercraft in Florida',
+    'home.subtitle': 'Rent cars, boats, and jet skis directly from locals',
+    'home.searchPlaceholder': 'Enter city or ZIP code',
+    'home.searchButton': 'Search',
+    'home.featured': 'Featured Vehicles',
+    'home.howItWorks': 'How It Works',
+    'home.step1': 'Find a vehicle',
+    'home.step1Desc': 'Browse cars, boats, and jet skis',
+    'home.step2': 'Book your ride',
+    'home.step2Desc': 'Choose your dates and book instantly',
+    'home.step3': 'Enjoy your trip',
+    'home.step3Desc': 'Unlock and go with contactless pickup',
+    'home.becomeHost': 'Earn money by sharing your vehicles',
+    'home.becomeHostDesc': 'Turn your car, boat, or jet ski into income when you\'re not using it',
+    'home.listCar': 'List Your Vehicle',
+    
+    // Search
+    'search.title': 'Find vehicles near you',
+    'search.filter': 'Filter',
+    'search.sort': 'Sort By',
+    'search.price': 'Price',
+    'search.date': 'Date',
+    'search.carType': 'Vehicle Type',
+    'search.distance': 'Distance',
+    'search.features': 'Features',
+    'search.noResults': 'No vehicles found',
+    'search.results': 'Results',
+    'search.apply': 'Apply Filters',
+    'search.reset': 'Reset',
+    
+    // Vehicle types
+    'vehicle.car': 'Car',
+    'vehicle.suv': 'SUV',
+    'vehicle.truck': 'Truck',
+    'vehicle.van': 'Van',
+    'vehicle.luxury': 'Luxury',
+    'vehicle.convertible': 'Convertible',
+    'vehicle.exotic': 'Exotic',
+    'vehicle.boat': 'Boat',
+    'vehicle.jet ski': 'Jet Ski',
+    
+    // Listing
+    'listing.day': 'day',
+    'listing.book': 'Book Now',
+    'listing.contact': 'Contact Owner',
+    'listing.details': 'Details',
+    'listing.features': 'Features',
+    'listing.location': 'Location',
+    'listing.reviews': 'Reviews',
+    'listing.availability': 'Availability',
+    'listing.similar': 'Similar Vehicles',
+    
+    // Profile
+    'profile.title': 'My Profile',
+    'profile.edit': 'Edit Profile',
+    'profile.verify': 'Verify Identity',
+    'profile.listings': 'My Listings',
+    'profile.bookings': 'My Bookings',
+    'profile.inbox': 'Messages',
+    'profile.settings': 'Settings',
+    'profile.addListing': 'Add New Listing',
+    'profile.logout': 'Logout',
+    
+    // Authentication
+    'auth.emailPlaceholder': 'Email',
+    'auth.passwordPlaceholder': 'Password',
+    'auth.confirmPassword': 'Confirm Password',
+    'auth.namePlaceholder': 'Full Name',
+    'auth.phonePlaceholder': 'Phone Number',
+    'auth.login': 'Login',
+    'auth.register': 'Sign Up',
+    'auth.forgotPassword': 'Forgot Password?',
+    'auth.noAccount': 'Don\'t have an account?',
+    'auth.hasAccount': 'Already have an account?',
+    'auth.verificationNeeded': 'Identity verification needed',
+    'login.title': 'Access your account',
+    'login.button': 'Login',
+    'register.title': 'Create new account',
+    'register.button': 'Register',
+    
+    // Bookings
+    'booking.upcoming': 'Upcoming Bookings',
+    'booking.past': 'Past Bookings',
+    'booking.cancel': 'Cancel Booking',
+    'booking.modify': 'Modify Booking',
+    'booking.leaveReview': 'Leave a Review',
+    'booking.pickupInfo': 'Pickup Information',
+    'booking.total': 'Total',
+    
+    // Messages
+    'messages.inbox': 'Inbox',
+    'messages.sent': 'Sent',
+    'messages.compose': 'New Message',
+    'messages.reply': 'Reply',
+    'messages.noMessages': 'No messages yet',
+    
+    // Common actions
+    'action.save': 'Save',
+    'action.cancel': 'Cancel',
+    'action.delete': 'Delete',
+    'action.edit': 'Edit',
+    'action.confirm': 'Confirm',
+    'action.back': 'Back',
+    'action.next': 'Next',
+    'action.search': 'Search',
+    
+    // Common errors
+    'error.required': 'This field is required',
+    'error.email': 'Please enter a valid email',
+    'error.password': 'Password must be at least 8 characters',
+    'error.passwordMatch': 'Passwords do not match',
+    'error.generic': 'Something went wrong',
+    'error.unauthorized': 'You must be logged in',
+    
+    // Footer sections
+    'footer.company': 'Company',
+    'footer.about': 'About',
+    'footer.contact': 'Contact',
+    'footer.careers': 'Careers',
+    'footer.help': 'Help',
+    'footer.followUs': 'Follow Us'
+  }
+};
