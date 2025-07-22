@@ -7,8 +7,8 @@ export default {
     'nav.bookings': 'Reservas',
     'nav.messages': 'Mensajes',
     'nav.profile': 'Perfil',
-    'nav.login': 'Iniciar Sesión',
-    'nav.register': 'Registrarse',
+    'nav.login': 'Iniciar sesión',
+    'nav.register': 'Registrar',
     'nav.logout': 'Cerrar Sesión',
     
     // Header/Footer
@@ -20,9 +20,9 @@ export default {
     'footer.support': 'Soporte',
     
     // Home Page
-    'home.title': 'Encuentra tu vehículo o embarcación perfecta en Florida',
-    'home.subtitle': 'Alquila coches, barcos y motos acuáticas directamente de locales',
-    'home.searchPlaceholder': 'Ingresa ciudad o código postal',
+    'home.title': 'Encuentra tu vehículo o embarcación ideal en Florida',
+    'home.subtitle': 'Alquila autos, botes y jet skis directamente con los dueños',
+    'home.searchPlaceholder': 'Ingrese ciudad o código postal',
     'home.searchButton': 'Buscar',
     'home.featured': 'Vehículos Destacados',
     'home.howItWorks': 'Cómo Funciona',
