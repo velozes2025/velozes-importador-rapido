@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import LoadingSpinner from './components/ui/LoadingSpinner';
 
@@ -15,21 +15,23 @@ const MessagesPage = React.lazy(() => import('./pages/MessagesPage'));
 
 function App() {
   return (
-    <Layout>
-      <Suspense fallback={<LoadingSpinner />}>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/search" element={<SearchPage />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/register" element={<RegisterPage />} />
-          <Route path="/profile" element={<ProfilePage />} />
-          <Route path="/listing/:id" element={<ListingDetailPage />} />
-          <Route path="/create-listing" element={<CreateListingPage />} />
-          <Route path="/bookings" element={<BookingsPage />} />
-          <Route path="/messages" element={<MessagesPage />} />
-        </Routes>
-      </Suspense>
-    </Layout>
+    <BrowserRouter>
+      <Layout>
+        <Suspense fallback={<LoadingSpinner />}>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/search" element={<SearchPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/register" element={<RegisterPage />} />
+            <Route path="/profile" element={<ProfilePage />} />
+            <Route path="/listing/:id" element={<ListingDetailPage />} />
+            <Route path="/create-listing" element={<CreateListingPage />} />
+            <Route path="/bookings" element={<BookingsPage />} />
+            <Route path="/messages" element={<MessagesPage />} />
+          </Routes>
+        </Suspense>
+      </Layout>
+    </BrowserRouter>
   );
 }
 
