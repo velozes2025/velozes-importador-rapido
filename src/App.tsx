@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import LoadingSpinner from './components/ui/LoadingSpinner';
+import './i18n';
 
 const HomePage = React.lazy(() => import('./pages/HomePage'));
 const SearchPage = React.lazy(() => import('./pages/SearchPage'));
