@@ -61,6 +61,17 @@ export default {
     'vehicle.boat': 'Barco',
     'vehicle.jet ski': 'Moto Acuática',
     
+    // Categories
+    'category.car': 'Auto',
+    'category.suv': 'SUV',
+    'category.truck': 'Camioneta',
+    'category.van': 'Furgoneta',
+    'category.luxury': 'Lujo',
+    'category.convertible': 'Convertible',
+    'category.exotic': 'Exótico',
+    'category.boat': 'Bote',
+    'category.jet ski': 'Jet Ski',
+    
     // Listing
     'listing.day': 'día',
     'listing.book': 'Reservar Ahora',

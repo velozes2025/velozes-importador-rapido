@@ -61,6 +61,17 @@ export default {
     'vehicle.boat': 'Boat',
     'vehicle.jet ski': 'Jet Ski',
     
+    // Categories
+    'category.car': 'Car',
+    'category.suv': 'SUV',
+    'category.truck': 'Truck',
+    'category.van': 'Van',
+    'category.luxury': 'Luxury',
+    'category.convertible': 'Convertible',
+    'category.exotic': 'Exotic',
+    'category.boat': 'Boat',
+    'category.jet ski': 'Jet Ski',
+    
     // Listing
     'listing.day': 'day',
     'listing.book': 'Book Now',
