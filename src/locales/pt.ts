@@ -8,7 +8,7 @@ export default {
     'nav.messages': 'Mensagens',
     'nav.profile': 'Perfil',
     'nav.login': 'Entrar',
-    'nav.register': 'Cadastrar',
+    'nav.register': 'Registrar',
     'nav.logout': 'Sair',
     
     // Header/Footer
@@ -20,9 +20,9 @@ export default {
     'footer.support': 'Suporte',
     
     // Home Page
-    'home.title': 'Encontre seu veículo ou embarcação perfeita na Flórida',
-    'home.subtitle': 'Alugue carros, barcos e jet skis diretamente de locais',
-    'home.searchPlaceholder': 'Digite cidade ou CEP',
+    'home.title': 'Encontre o carro ou embarcação perfeita na Flórida',
+    'home.subtitle': 'Alugue carros, barcos e jet skis direto com os donos',
+    'home.searchPlaceholder': 'Digite a cidade ou o CEP',
     'home.searchButton': 'Buscar',
     'home.featured': 'Veículos em Destaque',
     'home.howItWorks': 'Como Funciona',
