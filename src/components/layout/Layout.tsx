@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useInRouterContext } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 import MobileNav from './MobileNav';
@@ -9,7 +9,8 @@ interface LayoutProps {
 }
 
 const Layout = ({ children }: LayoutProps) => {
-  const location = useLocation();
+  const isInRouter = useInRouterContext();
+  const location = isInRouter ? useLocation() : { pathname: '' };
   const isAuthPage = location.pathname === '/login' || location.pathname === '/register';
 
   return (
