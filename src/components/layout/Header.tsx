@@ -44,8 +44,12 @@ const Header = () => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center">
-          <Car className="text-primary-500 w-8 h-8" />
-          <span className="ml-2 text-2xl font-bold text-neutral-900">
+          <img 
+            src="/public/icons/car-yellow.svg" 
+            alt="VELOZES Logo" 
+            className="w-8 h-8"
+          />
+          <span className="ml-2 text-2xl font-bold text-foreground">
             {t('app.title')}
           </span>
         </Link>
