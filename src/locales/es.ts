@@ -103,11 +103,22 @@ export default {
     // Bookings
     'booking.upcoming': 'Reservas Próximas',
     'booking.past': 'Reservas Pasadas',
+    'booking.cancelled': 'Canceladas',
+    'booking.completed': 'Completadas',
     'booking.cancel': 'Cancelar Reserva',
     'booking.modify': 'Modificar Reserva',
     'booking.leaveReview': 'Dejar una Reseña',
     'booking.pickupInfo': 'Información de Recogida',
     'booking.total': 'Total',
+    'booking.dates': 'Fechas',
+    'booking.pickupTime': 'Hora de Recogida',
+    'booking.vehicle': 'Vehículo',
+    'booking.location': 'Ubicación',
+    'booking.reviewSubmitted': 'Reseña Enviada',
+    'booking.bookAgain': 'Reservar Otra Vez',
+    'booking.noBookingsFound': 'No se encontraron reservas',
+    'booking.noBookingsDesc': 'No tienes ninguna reserva {status} en este momento.',
+    'booking.findVehicle': 'Encontrar un Vehículo',
     
     // Messages
     'messages.inbox': 'Bandeja de Entrada',

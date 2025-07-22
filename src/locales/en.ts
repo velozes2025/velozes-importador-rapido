@@ -103,11 +103,22 @@ export default {
     // Bookings
     'booking.upcoming': 'Upcoming Bookings',
     'booking.past': 'Past Bookings',
+    'booking.cancelled': 'Cancelled',
+    'booking.completed': 'Completed',
     'booking.cancel': 'Cancel Booking',
     'booking.modify': 'Modify Booking',
     'booking.leaveReview': 'Leave a Review',
     'booking.pickupInfo': 'Pickup Information',
     'booking.total': 'Total',
+    'booking.dates': 'Dates',
+    'booking.pickupTime': 'Pickup Time',
+    'booking.vehicle': 'Vehicle',
+    'booking.location': 'Location',
+    'booking.reviewSubmitted': 'Review Submitted',
+    'booking.bookAgain': 'Book Again',
+    'booking.noBookingsFound': 'No bookings found',
+    'booking.noBookingsDesc': 'You don\'t have any {status} bookings at the moment.',
+    'booking.findVehicle': 'Find a Vehicle',
     
     // Messages
     'messages.inbox': 'Inbox',
