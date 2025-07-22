@@ -302,13 +302,13 @@ const resources = {
       'nav.bookings': 'Reservas',
       'nav.messages': 'Mensajes',
       'nav.profile': 'Perfil',
-      'nav.login': 'Iniciar sesión',
+      'nav.login': 'Iniciar Sesión',
       'nav.register': 'Registrarse',
-      'nav.logout': 'Cerrar sesión',
+      'nav.logout': 'Cerrar Sesión',
       
       // Header/Footer
       'app.title': 'VELOZES',
-      'app.slogan': 'Alquila vehículos y embarcaciones, haz conexiones',
+      'app.slogan': 'Alquila vehículos y embarcaciones, crea conexiones',
       'footer.rights': 'Todos los derechos reservados',
       'footer.privacy': 'Política de Privacidad',
       'footer.terms': 'Términos de Servicio',
@@ -316,19 +316,19 @@ const resources = {
       
       // Home Page
       'home.title': 'Encuentra tu vehículo o embarcación perfecta en Florida',
-      'home.subtitle': 'Alquila autos, barcos y motos de agua directamente de locales',
+      'home.subtitle': 'Alquila coches, barcos y motos acuáticas directamente de locales',
       'home.searchPlaceholder': 'Ingresa ciudad o código postal',
       'home.searchButton': 'Buscar',
       'home.featured': 'Vehículos Destacados',
       'home.howItWorks': 'Cómo Funciona',
       'home.step1': 'Encuentra un vehículo',
-      'home.step1Desc': 'Navega por autos, barcos y motos de agua',
+      'home.step1Desc': 'Explora coches, barcos y motos acuáticas',
       'home.step2': 'Reserva tu viaje',
       'home.step2Desc': 'Elige tus fechas y reserva al instante',
       'home.step3': 'Disfruta tu viaje',
       'home.step3Desc': 'Desbloquea y ve con recogida sin contacto',
       'home.becomeHost': 'Gana dinero compartiendo tus vehículos',
-      'home.becomeHostDesc': 'Convierte tu auto, barco o moto de agua en ingresos cuando no lo uses',
+      'home.becomeHostDesc': 'Convierte tu coche, barco o moto acuática en ingresos cuando no lo uses',
       'home.listCar': 'Anuncia Tu Vehículo',
       
       // Search
@@ -343,18 +343,18 @@ const resources = {
       'search.noResults': 'No se encontraron vehículos',
       'search.results': 'Resultados',
       'search.apply': 'Aplicar Filtros',
-      'search.reset': 'Restablecer',
+      'search.reset': 'Reiniciar',
       
       // Vehicle types
-      'vehicle.car': 'Auto',
+      'vehicle.car': 'Coche',
       'vehicle.suv': 'SUV',
-      'vehicle.truck': 'Camión',
+      'vehicle.truck': 'Camioneta',
       'vehicle.van': 'Furgoneta',
       'vehicle.luxury': 'Lujo',
       'vehicle.convertible': 'Convertible',
       'vehicle.exotic': 'Exótico',
       'vehicle.boat': 'Barco',
-      'vehicle.jet ski': 'Moto de Agua',
+      'vehicle.jet ski': 'Moto Acuática',
       
       // Listing
       'listing.day': 'día',
@@ -374,29 +374,29 @@ const resources = {
       'profile.listings': 'Mis Anuncios',
       'profile.bookings': 'Mis Reservas',
       'profile.inbox': 'Mensajes',
-      'profile.settings': 'Configuraciones',
-      'profile.addListing': 'Agregar Nuevo Anuncio',
-      'profile.logout': 'Cerrar sesión',
+      'profile.settings': 'Configuración',
+      'profile.addListing': 'Añadir Nuevo Anuncio',
+      'profile.logout': 'Cerrar Sesión',
       
       // Authentication
-      'auth.emailPlaceholder': 'Email',
+      'auth.emailPlaceholder': 'Correo Electrónico',
       'auth.passwordPlaceholder': 'Contraseña',
       'auth.confirmPassword': 'Confirmar Contraseña',
       'auth.namePlaceholder': 'Nombre Completo',
       'auth.phonePlaceholder': 'Número de Teléfono',
-      'auth.login': 'Iniciar sesión',
+      'auth.login': 'Iniciar Sesión',
       'auth.register': 'Registrarse',
-      'auth.forgotPassword': '¿Olvidaste tu contraseña?',
+      'auth.forgotPassword': '¿Olvidaste tu Contraseña?',
       'auth.noAccount': '¿No tienes una cuenta?',
       'auth.hasAccount': '¿Ya tienes una cuenta?',
       'auth.verificationNeeded': 'Se necesita verificación de identidad',
       'login.title': 'Accede a tu cuenta',
-      'login.button': 'Iniciar sesión',
+      'login.button': 'Iniciar Sesión',
       'register.title': 'Crear nueva cuenta',
       'register.button': 'Registrarse',
       
       // Bookings
-      'booking.upcoming': 'Próximas Reservas',
+      'booking.upcoming': 'Reservas Próximas',
       'booking.past': 'Reservas Pasadas',
       'booking.cancel': 'Cancelar Reserva',
       'booking.modify': 'Modificar Reserva',
@@ -423,11 +423,11 @@ const resources = {
       
       // Common errors
       'error.required': 'Este campo es obligatorio',
-      'error.email': 'Por favor ingresa un email válido',
+      'error.email': 'Por favor ingresa un correo válido',
       'error.password': 'La contraseña debe tener al menos 8 caracteres',
       'error.passwordMatch': 'Las contraseñas no coinciden',
       'error.generic': 'Algo salió mal',
-      'error.unauthorized': 'Debes estar logueado',
+      'error.unauthorized': 'Debes iniciar sesión',
       
       // Footer sections
       'footer.company': 'Empresa',
