@@ -70,7 +70,8 @@ const resources = {
         'jet ski': 'Jet Ski',
         luxury: 'Luxury',
         convertible: 'Convertible',
-        exotic: 'Exotic'
+        exotic: 'Exotic',
+        truck: 'Truck'
       }
     }
   },
@@ -141,7 +142,8 @@ const resources = {
         'jet ski': 'Jet Ski',
         luxury: 'Luxo',
         convertible: 'Conversível',
-        exotic: 'Exótico'
+        exotic: 'Exótico',
+        truck: 'Caminhão'
       }
     }
   },
@@ -212,7 +214,8 @@ const resources = {
         'jet ski': 'Moto de Agua',
         luxury: 'Lujo',
         convertible: 'Convertible',
-        exotic: 'Exótico'
+        exotic: 'Exótico',
+        truck: 'Camión'
       }
     }
   }

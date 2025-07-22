@@ -1,3 +1,28 @@
+// Currency and pricing utilities
+export const getCurrencyByLanguage = (language: string) => {
+  switch (language) {
+    case 'pt':
+      return 'R$';
+    case 'es':
+      return '€';
+    case 'en':
+    default:
+      return '$';
+  }
+};
+
+export const convertPrice = (basePrice: number, language: string) => {
+  switch (language) {
+    case 'pt':
+      return Math.round(basePrice * 5.2); // USD to BRL aproximadamente
+    case 'es':
+      return Math.round(basePrice * 0.85); // USD to EUR aproximadamente
+    case 'en':
+    default:
+      return basePrice;
+  }
+};
+
 // Mock data for featured vehicles
 export const mockFeaturedVehicles = [
   {
@@ -9,7 +34,7 @@ export const mockFeaturedVehicles = [
     location: 'Miami Beach, FL',
     rating: 4.9,
     reviewCount: 12,
-    category: 'Exotic',
+    category: 'exotic',
     seats: 2,
     featured: true
   },
@@ -22,7 +47,7 @@ export const mockFeaturedVehicles = [
     location: 'Fort Lauderdale, FL',
     rating: 4.8,
     reviewCount: 8,
-    category: 'Exotic',
+    category: 'exotic',
     seats: 2,
     featured: true
   },
@@ -35,7 +60,7 @@ export const mockFeaturedVehicles = [
     location: 'Miami Beach, FL',
     rating: 4.9,
     reviewCount: 15,
-    category: 'Jet Ski',
+    category: 'jet ski',
     seats: 3,
     featured: true
   },
@@ -48,7 +73,7 @@ export const mockFeaturedVehicles = [
     location: 'Miami Marina, FL',
     rating: 4.8,
     reviewCount: 21,
-    category: 'Boat',
+    category: 'boat',
     seats: 8,
     featured: true
   }
@@ -66,7 +91,7 @@ export const mockAllVehicles = [
     location: 'Tampa, FL',
     rating: 4.7,
     reviewCount: 25,
-    category: 'Sports',
+    category: 'luxury',
     seats: 4
   },
   {
@@ -78,7 +103,7 @@ export const mockAllVehicles = [
     location: 'Key West, FL',
     rating: 4.8,
     reviewCount: 19,
-    category: 'Jet Ski',
+    category: 'jet ski',
     seats: 2
   },
   {
@@ -90,7 +115,7 @@ export const mockAllVehicles = [
     location: 'Fort Lauderdale, FL',
     rating: 4.9,
     reviewCount: 17,
-    category: 'Boat',
+    category: 'boat',
     seats: 10
   },
   {
@@ -102,7 +127,7 @@ export const mockAllVehicles = [
     location: 'Coral Gables, FL',
     rating: 4.9,
     reviewCount: 9,
-    category: 'Exotic',
+    category: 'exotic',
     seats: 2
   },
   {
@@ -114,7 +139,7 @@ export const mockAllVehicles = [
     location: 'Naples, FL',
     rating: 4.7,
     reviewCount: 23,
-    category: 'Jet Ski',
+    category: 'jet ski',
     seats: 3
   },
   {
@@ -126,8 +151,105 @@ export const mockAllVehicles = [
     location: 'Miami Beach, FL',
     rating: 4.8,
     reviewCount: 11,
-    category: 'Boat',
+    category: 'boat',
     seats: 12
+  },
+  // Novos veículos com categorias que temos ícones
+  {
+    id: 'v11',
+    title: '2023 Honda Civic Sedan',
+    imageUrl: 'https://images.pexels.com/photos/3972807/pexels-photo-3972807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    price: 89,
+    currency: '$',
+    location: 'Orlando, FL',
+    rating: 4.6,
+    reviewCount: 32,
+    category: 'car',
+    seats: 5
+  },
+  {
+    id: 'v12',
+    title: '2023 Toyota RAV4 Hybrid',
+    imageUrl: 'https://images.pexels.com/photos/2365572/pexels-photo-2365572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    price: 149,
+    currency: '$',
+    location: 'Jacksonville, FL',
+    rating: 4.7,
+    reviewCount: 28,
+    category: 'suv',
+    seats: 5
+  },
+  {
+    id: 'v13',
+    title: '2023 Ford F-150 Raptor',
+    imageUrl: 'https://images.pexels.com/photos/1051798/pexels-photo-1051798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    price: 299,
+    currency: '$',
+    location: 'Gainesville, FL',
+    rating: 4.8,
+    reviewCount: 22,
+    category: 'truck',
+    seats: 5
+  },
+  {
+    id: 'v14',
+    title: '2023 BMW X7 M50i',
+    imageUrl: 'https://images.pexels.com/photos/5835359/pexels-photo-5835359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    price: 449,
+    currency: '$',
+    location: 'Sarasota, FL',
+    rating: 4.9,
+    reviewCount: 18,
+    category: 'luxury',
+    seats: 7
+  },
+  {
+    id: 'v15',
+    title: '2023 Porsche 911 Turbo S',
+    imageUrl: 'https://images.pexels.com/photos/3802508/pexels-photo-3802508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    price: 799,
+    currency: '$',
+    location: 'Palm Beach, FL',
+    rating: 4.9,
+    reviewCount: 15,
+    category: 'convertible',
+    seats: 2
+  },
+  {
+    id: 'v16',
+    title: '2023 Nissan Altima',
+    imageUrl: 'https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    price: 79,
+    currency: '$',
+    location: 'Tallahassee, FL',
+    rating: 4.5,
+    reviewCount: 41,
+    category: 'car',
+    seats: 5
+  },
+  {
+    id: 'v17',
+    title: '2023 Jeep Wrangler Rubicon',
+    imageUrl: 'https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    price: 199,
+    currency: '$',
+    location: 'Clearwater, FL',
+    rating: 4.6,
+    reviewCount: 35,
+    category: 'suv',
+    seats: 4
+  },
+  {
+    id: 'v18',
+    title: '2023 Ram 1500 TRX',
+    imageUrl: 'https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    price: 349,
+    currency: '$',
+    location: 'Pensacola, FL',
+    rating: 4.7,
+    reviewCount: 19,
+    category: 'truck',
+    seats: 5
   }
 ];
 
@@ -142,7 +264,7 @@ export const mockUserVehicles = [
     location: 'Miami, FL',
     rating: 4.8,
     reviewCount: 14,
-    category: 'SUV',
+    category: 'suv',
     seats: 5
   },
   {
@@ -154,7 +276,7 @@ export const mockUserVehicles = [
     location: 'Miami, FL',
     rating: 4.9,
     reviewCount: 8,
-    category: 'Sports',
+    category: 'luxury',
     seats: 2
   }
 ];
@@ -192,14 +314,14 @@ export const mockMessages = [
   {
     id: 'm1',
     conversationId: 'c1',
-    text: 'Hi, I\'m interested in renting your jet ski. Is it available next weekend?',
+    text: "Hi, I'm interested in renting your jet ski. Is it available next weekend?",
     time: '2:30 PM',
     isSender: false
   },
   {
     id: 'm2',
     conversationId: 'c1',
-    text: 'Hello! Yes, it\'s available from Friday to Sunday next weekend. When would you like to pick it up?',
+    text: "Hello! Yes, it's available from Friday to Sunday next weekend. When would you like to pick it up?",
     time: '2:45 PM',
     isSender: true
   },
@@ -213,7 +335,7 @@ export const mockMessages = [
   {
     id: 'm4',
     conversationId: 'c1',
-    text: 'That works perfectly for me. I\'ll be available for the pickup at 10 AM on Friday. Looking forward to meeting you!',
+    text: "That works perfectly for me. I'll be available for the pickup at 10 AM on Friday. Looking forward to meeting you!",
     time: '3:15 PM',
     isSender: true
   },
@@ -239,7 +361,7 @@ export const mockContacts = [
     id: 'c1',
     name: 'Carlos Rodriguez',
     avatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    lastMessage: 'That works perfectly for me. I\'ll be available for the pickup at 10 AM on Friday.',
+    lastMessage: "That works perfectly for me. I'll be available for the pickup at 10 AM on Friday.",
     lastMessageTime: '3:15 PM',
     isOnline: true
   },
@@ -255,7 +377,7 @@ export const mockContacts = [
     id: 'c3',
     name: 'Miguel Santos',
     avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    lastMessage: 'Thanks for the quick response! I\'ll get back to you soon.',
+    lastMessage: "Thanks for the quick response! I'll get back to you soon.",
     lastMessageTime: 'Yesterday',
     isOnline: false
   }
